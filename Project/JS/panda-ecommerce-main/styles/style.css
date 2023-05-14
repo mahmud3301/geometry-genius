@@ -1,0 +1,30 @@
+.max-width-local{
+    max-width: 85%;
+    margin: auto;
+}
+.w-local{
+    width: 35%;
+}
+.banner-div-1{
+    background-color: #FCEAE8;
+    height: 75vh;
+}
+
+/* first section styles */
+.card-1{
+    background-color: #FFC107;
+}
+.card-2{
+    background-color: #198754;
+}
+.card-3{
+    background-color: #0D6EFD;
+}
+
+.row-local{
+    column-gap: 10px;
+}
+.bg-form{
+    background-color: #FCEAE8;
+    height: 350px;
+}

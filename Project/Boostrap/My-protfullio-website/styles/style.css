@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    text-underline-position: none;
+}
+
+body{
+    color: #959393e9;
+}
+
+/* .navbar-toggler{
+    background-color: #292828;
+} */
+.banner-img {
+    background-image: url(https://blog.logrocket.com/wp-content/uploads/2022/02/styling-css-box-shadow-effects-three-ways-nocdn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+}
+
+.play-btn{
+        display: block;
+        border-radius: 50px;
+        background: #fff6f7;
+        transition: 0.7s;
+        border: 2px solid #fff6f7;
+        align-items: center;
+}
+
+/* .card:hover {
+    background: #e5dddd;
+} */
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 350px;
+    border: 2px solid gray;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #dc3545;
+    border-radius: 8px;
+    padding: 45px;
+    transition: 1s;
+}
+
+.logo:hover {
+    background: #eeecec;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+.logo h4 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    color: #d2d2d2;
+}
+
+.logo img {
+    width: 175px;
+}
+
+.logo p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #989898;
+}
+
+@media only screen and (min-width: 768px) {
+    .logos {
+        margin: 0 40px;
+    }
+}
+
+
+footer
+{
+    height: 184px;
+    width: 100%;
+    background:  #020207;
+    margin-top: 6.25em;
+    color: #fefefe;
+    text-align: center;
+}
+ 
+.footer-content h1 {
+    font-size: 2em;
+    padding-top: 1em;
+    margin-bottom: 0.5em;
+}
+.footer-icon i
+{
+    font-size: 2em;
+    margin-top: 1rem;
+}
+
+.insta{
+    color: #be3c7b;
+}
+
+.modal-backdrop{
+    --bs-backdrop-bg: #000;
+    --bs-backdrop-zindex: ;
+}
